@@ -1,7 +1,7 @@
 {
-  "name":"Addon Example",
-  "version":"1.0",
-  "mainClass":"com.example.AddonExample",
-  "desc":"Hyperium Addon Example",
+  "name":"OofAddonV2",
+  "version":"2.2",
+  "mainClass":"club.chachy.oofmod.OofMod",
+  "desc":"The OofMod by Refraction & powns ported to Hyperium by chachy",
   "versionCode": "1.0"
 }

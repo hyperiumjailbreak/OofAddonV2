@@ -31,7 +31,7 @@ Listed below is all of the manifest information, and an example provided.
 
 * **name**: The name of your addon. **ExampleAddon**
 * **version**: The version of your addon. **1.0**
-* **mainClass**: The path to the main class of your addon. **com.example.AddonExample** 
+* **mainClass**: The path to the main class of your addon. **AddonExample** 
 * **desc**: A description of your addon. **This is an addon that is made for an example.**
 * **versionCode**: MUST match up to the client's versionCode. **The current versionCode is available in `AddonMinecraftBootstrap#VERSION_CODE`**
 
@@ -44,7 +44,7 @@ An example of a completed addon.json file is below.
 {
   "name":"Addon Example",
   "version":"1.0",
-  "mainClass":"com.example.AddonExample",
+  "mainClass":"AddonExample",
   "desc":"Hyperium Addon Example",
   "versionCode": "1.0"
 }
