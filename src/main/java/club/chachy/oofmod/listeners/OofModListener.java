@@ -68,6 +68,9 @@ public class OofModListener {
     }
 
     private void playOofSound() throws Exception {
+        if (!mod.getSettings().getSelectedSound().exists()) {
+            return;
+        }
         File soundFile = mod.getSettings().getSelectedSound();
         AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile.toURI().toURL());
         Clip clip = AudioSystem.getClip();

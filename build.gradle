@@ -1,5 +1,5 @@
-group 'com.example'
-version '1.0-SNAPSHOT'
+group 'club.chachy'
+version '2.2.1'
 
 buildscript {
     repositories {
