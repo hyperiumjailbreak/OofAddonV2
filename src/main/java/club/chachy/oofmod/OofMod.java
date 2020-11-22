@@ -29,7 +29,7 @@ public class OofMod implements IAddon {
         EventBus.INSTANCE.register(this);
         Hyperium.CONFIG.register(Settings.INSTANCE);
         EventBus.INSTANCE.register(new OofModListener());
-        new HyperiumHandlers().getCommandHandler().registerCommand(new OpenMenuCommand());
+        Hyperium.INSTANCE.getHandlers().getCommandHandler().registerCommand(new OpenMenuCommand());
     }
 
     /**
