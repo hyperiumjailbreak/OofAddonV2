@@ -1,7 +1,7 @@
 package club.chachy.oofmod.commands;
 
+import cc.hyperium.Hyperium;
 import cc.hyperium.commands.BaseCommand;
-import cc.hyperium.handlers.HyperiumHandlers;
 import club.chachy.oofmod.OofMod;
 import club.chachy.oofmod.gui.OofGui;
 import net.minecraft.client.Minecraft;
@@ -46,6 +46,6 @@ public class OpenMenuCommand implements BaseCommand {
             Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(EnumChatFormatting.DARK_RED + "-------------------------"));
             return;
         }
-        new HyperiumHandlers().getGuiDisplayHandler().setDisplayNextTick(new OofGui());
+        Hyperium.INSTANCE.getHandlers().getGuiDisplayHandler().setDisplayNextTick(new OofGui());
     }
 }

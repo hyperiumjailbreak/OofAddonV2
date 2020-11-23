@@ -4,7 +4,6 @@ import cc.hyperium.Hyperium;
 import cc.hyperium.event.EventBus;
 import cc.hyperium.event.InvokeEvent;
 import cc.hyperium.event.client.InitializationEvent;
-import cc.hyperium.handlers.HyperiumHandlers;
 import cc.hyperium.internal.addons.IAddon;
 import club.chachy.oofmod.commands.OpenMenuCommand;
 import club.chachy.oofmod.listeners.OofModListener;

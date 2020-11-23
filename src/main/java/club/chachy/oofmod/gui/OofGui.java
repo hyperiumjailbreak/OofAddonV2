@@ -106,6 +106,7 @@ public class OofGui extends GuiScreen {
             case 5: {
                 mod.getSettings().setVolume(volume.getValueAsFloat());
                 mod.getSettings().setSelectedSoundName(mod.getSettings().getSounds().get(currentIndex).getName());
+                Hyperium.CONFIG.save();
                 mc.displayGuiScreen(null);
                 break;
             }

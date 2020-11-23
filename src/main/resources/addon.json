@@ -1,7 +1,7 @@
 {
-  "name":"OofAddonV2",
-  "version":"2.2.1",
-  "mainClass":"club.chachy.oofmod.OofMod",
-  "desc":"The OofMod by Refraction & powns ported to Hyperium by chachy",
+  "name": "OofAddonV2",
+  "version": "2.2.1",
+  "mainClass": "club.chachy.oofmod.OofMod",
+  "desc": "The OofMod by Refraction & powns ported to Hyperium by chachy",
   "versionCode": "1.0"
 }
